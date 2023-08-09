@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.1",
+    "name": "Criador de senhas",
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+      },
+    "description": "Extensão que cria senhas conforme parâmetros informados pelo usuário.\nDesenvolvido por Rodrigo da Silva.",
+    "author": "rodrigodasilv",
+    "action": {
+   	 "default_title": "Criador de senhas",
+   	 "default_popup": "index.html",
+        "default_icon": "icon.png"
+    }
+}
